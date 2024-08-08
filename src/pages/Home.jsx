@@ -24,7 +24,7 @@ const Home = () => {
                 size='lg'
                 className='uppercase flext items-center gap-2'
               >
-                <a href="../../public/Fengsheng_Chen_resume_0.pdf" download className="flex items-center gap-2">
+                <a href="Fengsheng_Chen_resume_0.pdf" download className="flex items-center gap-2">
                   <span>Download CV</span>
                   <FiDownload className='text-xl' />
                 </a>

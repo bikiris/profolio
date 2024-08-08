@@ -18,7 +18,7 @@ const Photo = () => {
         className='w-[298px] h-[298px] xl:w-[498px] xl:h-[498px]'
       >
         <LazyLoadImage
-          src='/public/photo.png'
+          src='/photo.png'
           quality={100}
           alt='photo'
           beforeLoad={() => {}}
