@@ -5,7 +5,7 @@ import { FiDownload } from "react-icons/fi";
 
 const Home = () => {
   return (
-    <section className='h-full'>
+    <section className='h-full text-white'>
       <div className='mx-auto h-full'>
         <div className='flex flex-col xl:flex-row justify-between items-center mt-10 xl:pt-8 xl:pb-24'>
           <div className='text-center xl:text-left order-2 xl:order-none '>
@@ -22,7 +22,7 @@ const Home = () => {
               <Button
                 variant='outline'
                 size='lg'
-                className='uppercase flext items-center gap-2'
+                className='uppercase flext items-center gap-2 bg-transparent'
               >
                 <a href="Fengsheng_Chen_resume_0.pdf" download className="flex items-center gap-2">
                   <span>Download CV</span>

@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 const Header = () => {
 
   return (
-    <header className="py-8 xl:py-12">
+    <header className="py-8 xl:py-12 text-white">
       <div className="mx-auto flex justify-between items-center">
         {/* logo */}
         <Link to="/">
